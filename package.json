@@ -3,7 +3,8 @@
   "main": "browser/main.js",
   "version": "1.16.8",
   "description": "JBrowse - client-side genome browser",
-  "repository": "https://github.com/GMOD/jbrowse.git",
+  "repository": "https://github.com/domenico-simone/thekopsora_jbrowse.git",
+  "homepage": "https://domenico-simone.github.io/thekopsora_jbrowse",
   "scripts": {
     "test": "npm run test-puppeteer",
     "test-all": "npm run build && npm run test-puppeteer && npm run test-perl && npm run test-electron && npm run test-selenium",
@@ -25,7 +26,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "homepage": "http://jbrowse.org",
   "bugs": {
     "url": "https://github.com/GMOD/jbrowse/issues",
     "email": "gmod-ajax@lists.sourceforge.net"
@@ -34,6 +34,7 @@
   "dependencies": {
     "express": "^4.15.4",
     "fs-extra": "^4.0.1",
+    "gh-pages": "^2.2.0",
     "node-fetch": "^2.2.0",
     "node-getopt": "^0.2.3",
     "normalize-wheel": "^1.0.1",
